@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zh.dao.OrderStateMapper">
+  <resultMap id="BaseResultMap" type="com.zh.po.OrderState">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="order_state_id" jdbcType="INTEGER" property="orderStateId" />
+    <result column="order_state_name" jdbcType="VARCHAR" property="orderStateName" />
+  </resultMap>
+</mapper>
